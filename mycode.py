@@ -5,9 +5,15 @@ if __name__ == "__main__":
     hello_world()
 
 j = input("welcome to the jungle, what is your Name?: ")
-print(j)
+print("")
+print("nice to meet you im bucky the rookie")
 
-if (j == "ninja"):
-    result = "welcom sir to the fog cloud"
-else:
-    print("welcome to the the jungle grab your swords and cameras and lets began out journey")
+weapon = ['rocket hammer', 'saber', 'metal_bat']
+weapon = input("hello what is that in your hand im going to gues its a('rocket hammer', 'saber', 'metal_bat'): ")
+
+if (weapon == 'rocket hammer'):
+    print("nice a speedy and hard hitting weapon good luck with that weapong")
+elif (weapon == 'saber'):
+    print("nice swift and sturdy strike like the wind and peirce the very sky")
+elif (weapon == 'metal_bat'):
+    print("sturdy and light hits like a rock")
